@@ -1,0 +1,35 @@
+@import url(./css/index.css);
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background: url(../img/img2.jpg) center /cover no-repeat    ;
+    width: 1250px auto;
+    height: 950px ;
+    display: flex;
+}
+
+.logo-pick{
+    height: 250px;
+    width:  250px;
+    border-radius: 100%;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item {
+    margin-left: 30px;
+}
+
+ /* .menu-item :last-child {
+    none
+}!!!
